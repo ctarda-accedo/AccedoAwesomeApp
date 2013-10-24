@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D87C9E791818BA9B00F42E36 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87C9E781818BA9B00F42E36 /* SenTestingKit.framework */; };
+		D87C9E7A1818BA9B00F42E36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8896E161817C2D000E8EC76 /* Foundation.framework */; };
+		D87C9E7B1818BA9B00F42E36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8896E1A1817C2D000E8EC76 /* UIKit.framework */; };
+		D87C9E811818BA9B00F42E36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D87C9E7F1818BA9B00F42E36 /* InfoPlist.strings */; };
+		D87C9E831818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D87C9E821818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.m */; };
 		D8896E171817C2D000E8EC76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8896E161817C2D000E8EC76 /* Foundation.framework */; };
 		D8896E191817C2D000E8EC76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8896E181817C2D000E8EC76 /* CoreGraphics.framework */; };
 		D8896E1B1817C2D000E8EC76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8896E1A1817C2D000E8EC76 /* UIKit.framework */; };
@@ -25,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D87C9E851818BA9B00F42E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8896E0B1817C2D000E8EC76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8896E121817C2D000E8EC76;
+			remoteInfo = AccedoAwesomeApp;
+		};
 		D8896E3C1817C2D000E8EC76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D8896E0B1817C2D000E8EC76 /* Project object */;
@@ -35,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D87C9E771818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccedoAwesomeAppOCUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87C9E781818BA9B00F42E36 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D87C9E7E1818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccedoAwesomeAppOCUnitTests-Info.plist"; sourceTree = "<group>"; };
+		D87C9E801818BA9B00F42E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D87C9E821818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccedoAwesomeAppOCUnitTests.m; sourceTree = "<group>"; };
+		D87C9E841818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccedoAwesomeAppOCUnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		D8896E131817C2D000E8EC76 /* AccedoAwesomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccedoAwesomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8896E161817C2D000E8EC76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8896E181817C2D000E8EC76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +76,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D87C9E741818BA9B00F42E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87C9E791818BA9B00F42E36 /* SenTestingKit.framework in Frameworks */,
+				D87C9E7B1818BA9B00F42E36 /* UIKit.framework in Frameworks */,
+				D87C9E7A1818BA9B00F42E36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8896E101817C2D000E8EC76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,11 +109,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D87C9E7C1818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D87C9E821818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.m */,
+				D87C9E7D1818BA9B00F42E36 /* Supporting Files */,
+			);
+			path = AccedoAwesomeAppOCUnitTests;
+			sourceTree = "<group>";
+		};
+		D87C9E7D1818BA9B00F42E36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D87C9E7E1818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests-Info.plist */,
+				D87C9E7F1818BA9B00F42E36 /* InfoPlist.strings */,
+				D87C9E841818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D8896E0A1817C2D000E8EC76 = {
 			isa = PBXGroup;
 			children = (
 				D8896E1C1817C2D000E8EC76 /* AccedoAwesomeApp */,
 				D8896E3E1817C2D000E8EC76 /* AccedoAwesomeAppTests */,
+				D87C9E7C1818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests */,
 				D8896E151817C2D000E8EC76 /* Frameworks */,
 				D8896E141817C2D000E8EC76 /* Products */,
 			);
@@ -96,6 +144,7 @@
 			children = (
 				D8896E131817C2D000E8EC76 /* AccedoAwesomeApp.app */,
 				D8896E371817C2D000E8EC76 /* AccedoAwesomeAppTests.xctest */,
+				D87C9E771818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +156,7 @@
 				D8896E181817C2D000E8EC76 /* CoreGraphics.framework */,
 				D8896E1A1817C2D000E8EC76 /* UIKit.framework */,
 				D8896E381817C2D000E8EC76 /* XCTest.framework */,
+				D87C9E781818BA9B00F42E36 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +208,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D87C9E761818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87C9E891818BA9B00F42E36 /* Build configuration list for PBXNativeTarget "AccedoAwesomeAppOCUnitTests" */;
+			buildPhases = (
+				D87C9E731818BA9B00F42E36 /* Sources */,
+				D87C9E741818BA9B00F42E36 /* Frameworks */,
+				D87C9E751818BA9B00F42E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D87C9E861818BA9B00F42E36 /* PBXTargetDependency */,
+			);
+			name = AccedoAwesomeAppOCUnitTests;
+			productName = AccedoAwesomeAppOCUnitTests;
+			productReference = D87C9E771818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		D8896E121817C2D000E8EC76 /* AccedoAwesomeApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8896E481817C2D000E8EC76 /* Build configuration list for PBXNativeTarget "AccedoAwesomeApp" */;
@@ -203,6 +271,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Accedo;
 				TargetAttributes = {
+					D87C9E761818BA9B00F42E36 = {
+						TestTargetID = D8896E121817C2D000E8EC76;
+					};
 					D8896E361817C2D000E8EC76 = {
 						TestTargetID = D8896E121817C2D000E8EC76;
 					};
@@ -223,11 +294,20 @@
 			targets = (
 				D8896E121817C2D000E8EC76 /* AccedoAwesomeApp */,
 				D8896E361817C2D000E8EC76 /* AccedoAwesomeAppTests */,
+				D87C9E761818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D87C9E751818BA9B00F42E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87C9E811818BA9B00F42E36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8896E111817C2D000E8EC76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +330,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D87C9E731818BA9B00F42E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87C9E831818BA9B00F42E36 /* AccedoAwesomeAppOCUnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8896E0F1817C2D000E8EC76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +359,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D87C9E861818BA9B00F42E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8896E121817C2D000E8EC76 /* AccedoAwesomeApp */;
+			targetProxy = D87C9E851818BA9B00F42E36 /* PBXContainerItemProxy */;
+		};
 		D8896E3D1817C2D000E8EC76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D8896E121817C2D000E8EC76 /* AccedoAwesomeApp */;
@@ -279,6 +372,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D87C9E7F1818BA9B00F42E36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87C9E801818BA9B00F42E36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		D8896E1F1817C2D000E8EC76 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -314,6 +415,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D87C9E871818BA9B00F42E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccedoAwesomeApp.app/AccedoAwesomeApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccedoAwesomeAppOCUnitTests/AccedoAwesomeAppOCUnitTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AccedoAwesomeAppOCUnitTests/AccedoAwesomeAppOCUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D87C9E881818BA9B00F42E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccedoAwesomeApp.app/AccedoAwesomeApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccedoAwesomeAppOCUnitTests/AccedoAwesomeAppOCUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "AccedoAwesomeAppOCUnitTests/AccedoAwesomeAppOCUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		D8896E461817C2D000E8EC76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -459,6 +602,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D87C9E891818BA9B00F42E36 /* Build configuration list for PBXNativeTarget "AccedoAwesomeAppOCUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87C9E871818BA9B00F42E36 /* Debug */,
+				D87C9E881818BA9B00F42E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D8896E0E1817C2D000E8EC76 /* Build configuration list for PBXProject "AccedoAwesomeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -475,6 +626,7 @@
 				D8896E4A1817C2D000E8EC76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8896E4B1817C2D000E8EC76 /* Build configuration list for PBXNativeTarget "AccedoAwesomeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +635,7 @@
 				D8896E4D1817C2D000E8EC76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

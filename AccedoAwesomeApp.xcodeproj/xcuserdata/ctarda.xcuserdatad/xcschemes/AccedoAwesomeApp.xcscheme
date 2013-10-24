@@ -38,6 +38,16 @@
                ReferencedContainer = "container:AccedoAwesomeApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D87C9E761818BA9B00F42E36"
+               BuildableName = "AccedoAwesomeAppOCUnitTests.octest"
+               BlueprintName = "AccedoAwesomeAppOCUnitTests"
+               ReferencedContainer = "container:AccedoAwesomeApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
