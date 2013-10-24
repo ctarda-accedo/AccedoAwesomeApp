@@ -536,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexej Kubarev (RNA4663CA2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AccedoAwesomeApp/AccedoAwesomeApp-Prefix.pch";
 				INFOPLIST_FILE = "AccedoAwesomeApp/AccedoAwesomeApp-Info.plist";
@@ -549,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexej Kubarev (RNA4663CA2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AccedoAwesomeApp/AccedoAwesomeApp-Prefix.pch";
 				INFOPLIST_FILE = "AccedoAwesomeApp/AccedoAwesomeApp-Info.plist";
@@ -609,6 +611,7 @@
 				D87C9E881818BA9B00F42E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8896E0E1817C2D000E8EC76 /* Build configuration list for PBXProject "AccedoAwesomeApp" */ = {
 			isa = XCConfigurationList;
